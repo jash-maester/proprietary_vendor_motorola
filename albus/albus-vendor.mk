@@ -62,8 +62,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/albus/proprietary/vendor/lib/hw/vendor.qti.hardware.qteeconnector@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.qti.hardware.qteeconnector@1.0-impl.so \
     vendor/motorola/albus/proprietary/vendor/lib/libAlacSwDec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libAlacSwDec.so \
     vendor/motorola/albus/proprietary/vendor/lib/libApeSwDec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libApeSwDec.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libcppf.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcppf.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libCommandSvc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCommandSvc.so \
     vendor/motorola/albus/proprietary/vendor/lib/libFlacSwDec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libFlacSwDec.so \
     vendor/motorola/albus/proprietary/vendor/lib/libI420colorconvert.so:$(TARGET_COPY_OUT_VENDOR)/lib/libI420colorconvert.so \
     vendor/motorola/albus/proprietary/vendor/lib/libOmxAacDec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libOmxAacDec.so \
@@ -79,31 +77,16 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/albus/proprietary/vendor/lib/libOmxVpp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libOmxVpp.so \
     vendor/motorola/albus/proprietary/vendor/lib/libOmxWmaDec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libOmxWmaDec.so \
     vendor/motorola/albus/proprietary/vendor/lib/libQSEEComAPI.so:$(TARGET_COPY_OUT_VENDOR)/lib/libQSEEComAPI.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libSampleAuthJNI.so:$(TARGET_COPY_OUT_VENDOR)/lib/libSampleAuthJNI.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libSampleExtAuthJNI.so:$(TARGET_COPY_OUT_VENDOR)/lib/libSampleExtAuthJNI.so \
     vendor/motorola/albus/proprietary/vendor/lib/libacdb-fts.so:$(TARGET_COPY_OUT_VENDOR)/lib/libacdb-fts.so \
     vendor/motorola/albus/proprietary/vendor/lib/libacdbloader.so:$(TARGET_COPY_OUT_VENDOR)/lib/libacdbloader.so \
     vendor/motorola/albus/proprietary/vendor/lib/libacdbrtac.so:$(TARGET_COPY_OUT_VENDOR)/lib/libacdbrtac.so \
     vendor/motorola/albus/proprietary/vendor/lib/libadiertac.so:$(TARGET_COPY_OUT_VENDOR)/lib/libadiertac.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libadsp_default_listener.so:$(TARGET_COPY_OUT_VENDOR)/lib/libadsp_default_listener.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libadsp_hvx_callback_skel.so:$(TARGET_COPY_OUT_VENDOR)/lib/libadsp_hvx_callback_skel.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libadsp_hvx_stub.so:$(TARGET_COPY_OUT_VENDOR)/lib/libadsp_hvx_stub.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libadsprpc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libadsprpc.so \
     vendor/motorola/albus/proprietary/vendor/lib/libaudcal.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaudcal.so \
     vendor/motorola/albus/proprietary/vendor/lib/libaudioalsa.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaudioalsa.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libavenhancements.so:$(TARGET_COPY_OUT_VENDOR)/lib/libavenhancements.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libbtnv.so:$(TARGET_COPY_OUT_VENDOR)/lib/libbtnv.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libfastcvadsp_stub.so:$(TARGET_COPY_OUT_VENDOR)/lib/libfastcvadsp_stub.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libfastcvopt.so:$(TARGET_COPY_OUT_VENDOR)/lib/libfastcvopt.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libfeedbackhandler.so:$(TARGET_COPY_OUT_VENDOR)/lib/libfeedbackhandler.so \
     vendor/motorola/albus/proprietary/vendor/lib/libgcs-calwrapper.so:$(TARGET_COPY_OUT_VENDOR)/lib/libgcs-calwrapper.so \
     vendor/motorola/albus/proprietary/vendor/lib/libgcs-ipc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libgcs-ipc.so \
     vendor/motorola/albus/proprietary/vendor/lib/libgcs-osal.so:$(TARGET_COPY_OUT_VENDOR)/lib/libgcs-osal.so \
     vendor/motorola/albus/proprietary/vendor/lib/libgcs.so:$(TARGET_COPY_OUT_VENDOR)/lib/libgcs.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libhdr_tm.so:$(TARGET_COPY_OUT_VENDOR)/lib/libhdr_tm.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libmdsprpc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmdsprpc.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libmm-color-convertor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmm-color-convertor.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libmm-hdcpmgr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmm-hdcpmgr.so \
     vendor/motorola/albus/proprietary/vendor/lib/libmmi.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmi.so \
     vendor/motorola/albus/proprietary/vendor/lib/libmmosal.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmosal.so \
     vendor/motorola/albus/proprietary/vendor/lib/libmmparser.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmparser.so \
@@ -111,19 +94,12 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/albus/proprietary/vendor/lib/libmmrtpdecoder.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmrtpdecoder.so \
     vendor/motorola/albus/proprietary/vendor/lib/libmmrtpencoder.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmrtpencoder.so \
     vendor/motorola/albus/proprietary/vendor/lib/libmpbase.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmpbase.so \
-    vendor/motorola/albus/proprietary/vendor/lib/liboemcrypto.so:$(TARGET_COPY_OUT_VENDOR)/lib/liboemcrypto.so \
     vendor/motorola/albus/proprietary/vendor/lib/libperipheral_client.so:$(TARGET_COPY_OUT_VENDOR)/lib/libperipheral_client.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libqti-at.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqti-at.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libqti-gt-prop.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqti-gt-prop.so \
     vendor/motorola/albus/proprietary/vendor/lib/libqtigef.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqtigef.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libsdedrm.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsdedrm.so \
     vendor/motorola/albus/proprietary/vendor/lib/libulp2.so:$(TARGET_COPY_OUT_VENDOR)/lib/libulp2.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libunshorten.so:$(TARGET_COPY_OUT_VENDOR)/lib/libunshorten.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libvendorconn.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvendorconn.so \
     vendor/motorola/albus/proprietary/vendor/lib/libvpphvx.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvpphvx.so \
     vendor/motorola/albus/proprietary/vendor/lib/libvpplibrary.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvpplibrary.so \
     vendor/motorola/albus/proprietary/vendor/lib/libvqzip.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvqzip.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libwbc_jni.so:$(TARGET_COPY_OUT_VENDOR)/lib/libwbc_jni.so \
     vendor/motorola/albus/proprietary/vendor/lib/libwfdavenhancements.so:$(TARGET_COPY_OUT_VENDOR)/lib/libwfdavenhancements.so \
     vendor/motorola/albus/proprietary/vendor/lib/libwfdmmsink.so:$(TARGET_COPY_OUT_VENDOR)/lib/libwfdmmsink.so \
     vendor/motorola/albus/proprietary/vendor/lib/libwfduibcsink.so:$(TARGET_COPY_OUT_VENDOR)/lib/libwfduibcsink.so \
@@ -156,7 +132,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/albus/proprietary/vendor/lib64/hw/gatekeeper.msm8953.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/gatekeeper.msm8953.so \
     vendor/motorola/albus/proprietary/vendor/lib64/hw/keystore.msm8953.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/keystore.msm8953.so \
     vendor/motorola/albus/proprietary/vendor/lib64/hw/vendor.qti.hardware.qteeconnector@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.qti.hardware.qteeconnector@1.0-impl.so \
-    vendor/motorola/albus/proprietary/vendor/lib64/lib-uceservice.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lib-uceservice.so \
     vendor/motorola/albus/proprietary/vendor/lib64/libAlacSwDec.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libAlacSwDec.so \
     vendor/motorola/albus/proprietary/vendor/lib64/libApeSwDec.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libApeSwDec.so \
     vendor/motorola/albus/proprietary/vendor/lib64/libCB.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libCB.so \
@@ -203,9 +178,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/albus/proprietary/vendor/lib64/libldacBT_abr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libldacBT_abr.so \
     vendor/motorola/albus/proprietary/vendor/lib64/libldacBT_enc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libldacBT_enc.so \
     vendor/motorola/albus/proprietary/vendor/lib64/libmm-color-convertor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmm-color-convertor.so \
-    vendor/motorola/albus/proprietary/vendor/lib64/libmm-hdcpmgr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmm-hdcpmgr.so \
     vendor/motorola/albus/proprietary/vendor/lib64/libperipheral_client.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libperipheral_client.so \
-    vendor/motorola/albus/proprietary/vendor/lib64/libqti-gt-prop.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqti-gt-prop.so \
     vendor/motorola/albus/proprietary/vendor/lib64/libqtigef.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqtigef.so \
     vendor/motorola/albus/proprietary/vendor/lib64/librpmb.so:$(TARGET_COPY_OUT_VENDOR)/lib64/librpmb.so \
     vendor/motorola/albus/proprietary/vendor/lib64/libsdedrm.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsdedrm.so \
